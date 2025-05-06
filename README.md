@@ -12,3 +12,22 @@ screenshot of successfull merge pull requests
 Both the feature/update-styling and feature/add-content branches made changes to the same section of the index.html file, which caused a merge conflict when attempting to merge the second branch.
 GitHub flagged the conflict during the pull request. I clicked “Resolve conflicts”, which showed both versions of the conflicting code. I manually edited the file to keep the necessary parts from both branches, removed the conflict markers (<<<<<<<, =======, >>>>>>>), and then committed the resolved version.
 After resolving, I completed the pull request merge successfully.
+
+
+
+ASSIGNMENT 4
+
+since to run npm admin permissions were required so couldnt do that, learnt about the tools asked in the assignment
+
+
+Husky is a tool that helps set up Git hooks easily, such as pre-commit or commit-msg hooks.
+
+lint-staged allows us to only lint files that are staged for commit, making it faster and more efficient.
+
+ESLint checks for syntax errors and code quality in JavaScript.
+
+Prettier automatically formats code to maintain consistency.
+
+commitlint checks that commit messages follow a specific convention (like Conventional Commits).
+
+GitHub Actions allows you to automate tasks such as running tests or linters every time code is pushed to the repository.
