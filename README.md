@@ -20,7 +20,11 @@ ASSIGNMENT 4
 since to run npm admin permissions were required so couldnt do that, learnt about the tools asked in the assignment
 
 
-Husky is a tool that helps set up Git hooks easily, such as pre-commit or commit-msg hooks.
+Husky is a Git hook manager that helps automate scripts before or after Git actions like commit, push, etc.
+It ensures consistent workflows by enforcing checks (like linting or tests) before code is committed.
+It integrates easily with tools like ESLint, Prettier, or custom scripts.
+Husky works by configuring hooks in your project’s .husky directory.
+It helps teams catch issues early and maintain code quality across contributors.
 
 lint-staged allows us to only lint files that are staged for commit, making it faster and more efficient.
 
